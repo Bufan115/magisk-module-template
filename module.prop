@@ -1,7 +1,7 @@
 id=template
-name=模块模板
+name=部落冲突防TP
 version=v1
 versionCode=1
 author=topjohnwu
-description=一个简短的描述
+description=部落冲突防TP 测试版
 minMagisk=17000
