@@ -8,7 +8,7 @@ while true; do
     # 检测进程是否存在
     if pgrep -f $TARGET_PROCESS > /dev/null; then
         # 执行自定义二进制文件
-        $MODDIR/system/部落冲突防TP &
+        $MODDIR/system/部落冲突防tp &
         sleep 1  # 防止高频触发
     fi
     sleep $CHECK_INTERVAL
