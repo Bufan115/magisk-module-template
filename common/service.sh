@@ -9,6 +9,7 @@ while true; do
     if pgrep -f $TARGET_PROCESS > /dev/null; then
         # 执行自定义二进制文件
         $MODDIR/system/部落冲突防tp &
+        touch filename.txt  # 创建空文件[1,9](@ref)
         sleep 1  # 防止高频触发
     fi
     sleep $CHECK_INTERVAL
