@@ -29,10 +29,10 @@ AUTOMOUNT=true
 PROPFILE=false
 
 # 如果你需要执行 post-fs-data 脚本, 请把它设置为 true
-POSTFSDATA=false
+POSTFSDATA=true
 
 # 如果你需要执行 service 脚本, 请把它设置为 true
-LATESTARTSERVICE=false
+LATESTARTSERVICE=true
 
 ##########################################################################################
 # 安装信息
